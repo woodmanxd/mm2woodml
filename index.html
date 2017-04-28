@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://mm2wood.ml/global.css">
+</head>
+<body>
+<div id="welcome">
+<b>Welcome to my domain.</b>
+</div>
+<p>
+<div id="welcome-subheader">I put things here sometimes.</div>
+<p>
+<div id="body">
+<a href="https://mm2wood.ml/">Home</a>
+<p>
+<a href="https://mm2wood.ml/tutorials/">Assorted tutorials</a>
+<p>
+<a href="https://mm2wood.ml/yt/">YouTube downloader</a>
+<p>
+<a href="https://mm2wood.ml/img/">Image upload</a>
+<p>
+<a href="https://mm2wood.ml/beta/">Beta version</a>
+</div>
+<div id="head">Contact me:</div>
+<div id="body">
+<p>
+<a href="skype:live:woodman_117?userinfo">Skype</a>
+<p>
+<a href="mailto:woodman@national.shitposting.agency">E-mail</a>
+<p>
+<a href="https://plus.google.com/118151597234356133550">Google+</a>
+<p>
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="txt">
+</div>
+</body>
+</html>

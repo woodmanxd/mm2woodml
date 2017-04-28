@@ -1,0 +1,25 @@
+#welcome{
+    text-decoration: none;
+    font-size: 36pt;
+    color: black;
+    font-family: Arial;
+}
+ #body{
+  	text-decoration: none;
+  	font-size: 22pt;
+  	color: black;
+    font-family: Arial;
+}
+ #welcome-subheader{
+    text-decoration: none;
+    font-size: 22pt;
+    font-family: Arial;
+    color: black;
+}
+ #head{
+  	text-decoration: none;
+  	font-size: 30pt;
+  	color: black;
+  	width: 100%;
+    font-family: Arial;
+}
